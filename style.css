@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.pElStyle{
+    @apply grid grid-flow-col text-sm grid-cols-3 items-center gap-4 lg:text-[1rem]
+}
+.inputRangeElStyle{
+    @apply h-0.5 text-black shadow
+}
+.inputNumElStyle{
+    @apply rounded bg-slate-600 shadow text-white text-center py-0.5 outline-none focus:outline-none active:outline-none shadow
+}
+.resetBtnStyle{
+    @apply text-sm bg-blue-500 text-white px-2 py-1 rounded-xl hover:brightness-125 shadow-xl lg:mt-4 lg:px-6 lg:py-2
+}
